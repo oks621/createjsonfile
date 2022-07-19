@@ -7,8 +7,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JSONfile {
-    public static void writeee() {
+public class JsonFile {
+    public void writeFile() {
 
         File file = new File("file.txt");
         try (FileWriter writer = new FileWriter(file)) {
@@ -22,7 +22,7 @@ public class JSONfile {
         }
     }
 
-    public static void createuserJson() {
+    public void createJson() {
         List<String> col1 = new ArrayList<>();
         List<String> col2 = new ArrayList<>();
         List<User> user = new ArrayList<>();
